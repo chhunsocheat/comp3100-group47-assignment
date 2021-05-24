@@ -5,6 +5,7 @@ public interface SchedulingAlgo {
     //take an input list of servers, and return another list of servers
     // that meet a certain condition depending on the algorithm
     public void setServers(ArrayList<ServerObject> s);
+    public void setJobCore(int coreCount);
     public void populateServers(ArrayList<String> serverStatuses);
     public ServerObject getSCHDServer();
 }

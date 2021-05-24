@@ -18,6 +18,6 @@
   <workload type="medium" minLoad="40" maxLoad="60" />
   <termination>
 	<condition type="endtime" value="86400" />
-	<condition type="jobcount" value="500" />
+	<condition type="jobcount" value="100" />
   </termination>
 </config>

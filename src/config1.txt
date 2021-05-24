@@ -1,0 +1,1821 @@
+# ds-sim server 18-February, 2021 @ MQ - client-server
+# Server-side simulator started with './ds-server -c ./configs/sample-configs/ds-sample-config01.xml -v all -n'
+# Waiting for connection to port 50000 of IP address 127.0.0.1
+RCVD HELO
+SENT OK
+RCVD AUTH socheat
+# Welcome  socheat!
+# The system information can be read from 'ds-system.xml'
+SENT OK
+RCVD REDY
+SENT JOBN 37 0 653 3 700 3800
+RCVD GETS Capable 3 700 3800
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 inactive -1 16 64000 512000 0 0
+RCVD OK
+SENT .
+RCVD SCHD 0 super-silk 0
+t:         37 job     0 (waiting) on # 0 of server super-silk (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60 1 2025 2 1500 2900
+RCVD GETS Capable 2 1500 2900
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 booting 117 13 63300 508200 1 0
+RCVD OK
+SENT .
+RCVD SCHD 1 super-silk 0
+t:         60 job     1 (waiting) on # 0 of server super-silk (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 96 2 343 2 1500 2100
+RCVD GETS Capable 2 1500 2100
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 booting 117 11 61800 505300 2 0
+RCVD OK
+SENT .
+RCVD SCHD 2 super-silk 0
+t:         96 job     2 (waiting) on # 0 of server super-silk (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 101 3 380 2 900 2500
+RCVD GETS Capable 2 900 2500
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 booting 117 9 60300 503200 3 0
+RCVD OK
+SENT .
+RCVD SCHD 3 super-silk 0
+t:        101 job     3 (waiting) on # 0 of server super-silk (booting) SCHEDULED
+SENT OK
+RCVD REDY
+t:        117 job     0 on # 0 of server super-silk RUNNING
+t:        117 job     1 on # 0 of server super-silk RUNNING
+t:        117 job     2 on # 0 of server super-silk RUNNING
+t:        117 job     3 on # 0 of server super-silk RUNNING
+SENT JOBN 137 4 111 1 100 2000
+RCVD GETS Capable 1 100 2000
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 7 59400 500700 0 4
+RCVD OK
+SENT .
+RCVD SCHD 4 super-silk 0
+t:        137 job     4 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        137 job     4 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 156 5 8 3 2700 2600
+RCVD GETS Capable 3 2700 2600
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 6 59300 498700 0 5
+RCVD OK
+SENT .
+RCVD SCHD 5 super-silk 0
+t:        156 job     5 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        156 job     5 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:        177 job     5 on # 0 of server super-silk COMPLETED
+SENT JCPL 177 5 super-silk 0
+RCVD REDY
+SENT JOBN 198 6 1074 4 4000 7600
+RCVD GETS Capable 4 4000 7600
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 6 59300 498700 0 5
+RCVD OK
+SENT .
+RCVD SCHD 6 super-silk 0
+t:        198 job     6 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        198 job     6 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 225 7 442 2 500 2100
+RCVD GETS Capable 2 500 2100
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 55300 491100 0 6
+RCVD OK
+SENT .
+RCVD SCHD 7 super-silk 0
+t:        225 job     7 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        225 job     7 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 249 8 926 1 100 800
+RCVD GETS Capable 1 100 800
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 inactive -1 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 0 54800 489000 0 7
+RCVD OK
+SENT .
+RCVD SCHD 8 joon 0
+t:        249 job     8 (waiting) on # 0 of server joon (booting) SCHEDULED
+SENT OK
+RCVD REDY
+t:        303 job     4 on # 0 of server super-silk COMPLETED
+SENT JCPL 303 4 super-silk 0
+RCVD REDY
+SENT JOBN 308 9 2010 2 600 1500
+RCVD GETS Capable 2 600 1500
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 booting 309 3 15900 63200 1 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 1 54900 491000 0 6
+RCVD OK
+SENT .
+RCVD SCHD 9 joon 0
+t:        308 job     9 (waiting) on # 0 of server joon (booting) SCHEDULED
+SENT OK
+RCVD REDY
+t:        309 job     8 on # 0 of server joon RUNNING
+t:        309 job     9 on # 0 of server joon RUNNING
+t:        575 job     7 on # 0 of server super-silk COMPLETED
+SENT JCPL 575 7 super-silk 0
+RCVD REDY
+SENT JOBN 586 10 47 1 300 1200
+RCVD GETS Capable 1 300 1200
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 15300 61700 0 2
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 3 55400 493100 0 5
+RCVD OK
+SENT .
+RCVD SCHD 10 super-silk 0
+t:        586 job    10 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        586 job    10 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:        603 job     2 on # 0 of server super-silk COMPLETED
+SENT JCPL 603 2 super-silk 0
+RCVD REDY
+SENT JOBN 648 11 114 1 700 400
+RCVD GETS Capable 1 700 400
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 15300 61700 0 2
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 4 56600 494000 0 5
+RCVD OK
+SENT .
+RCVD SCHD 11 super-silk 0
+t:        648 job    11 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        648 job    11 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:        758 job     6 on # 0 of server super-silk COMPLETED
+SENT JCPL 758 6 super-silk 0
+RCVD REDY
+SENT JOBN 765 12 9 3 1900 500
+RCVD GETS Capable 3 1900 500
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 15300 61700 0 2
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 7 59900 501200 0 5
+RCVD OK
+SENT .
+RCVD SCHD 12 super-silk 0
+t:        765 job    12 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        765 job    12 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:        769 job    11 on # 0 of server super-silk COMPLETED
+SENT JCPL 769 11 super-silk 0
+RCVD REDY
+t:        785 job    12 on # 0 of server super-silk COMPLETED
+SENT JCPL 785 12 super-silk 0
+RCVD REDY
+t:        825 job    10 on # 0 of server super-silk COMPLETED
+SENT JCPL 825 10 super-silk 0
+RCVD REDY
+SENT JOBN 839 13 1625 1 900 2000
+RCVD GETS Capable 1 900 2000
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 15300 61700 0 2
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 9 60900 502800 0 3
+RCVD OK
+SENT .
+RCVD SCHD 13 super-silk 0
+t:        839 job    13 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        839 job    13 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 928 14 344 2 1500 1900
+RCVD GETS Capable 2 1500 1900
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 15300 61700 0 2
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 8 60000 500800 0 4
+RCVD OK
+SENT .
+RCVD SCHD 14 super-silk 0
+t:        928 job    14 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        928 job    14 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 950 15 1 3 1800 6100
+RCVD GETS Capable 3 1800 6100
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 15300 61700 0 2
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 6 58500 498900 0 5
+RCVD OK
+SENT .
+RCVD SCHD 15 super-silk 0
+t:        950 job    15 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        950 job    15 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:        952 job    15 on # 0 of server super-silk COMPLETED
+SENT JCPL 952 15 super-silk 0
+RCVD REDY
+SENT JOBN 987 16 5 2 1600 2500
+RCVD GETS Capable 2 1600 2500
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 15300 61700 0 2
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 6 58500 498900 0 5
+RCVD OK
+SENT .
+RCVD SCHD 16 super-silk 0
+t:        987 job    16 (running) on # 0 of server super-silk (active) SCHEDULED
+t:        987 job    16 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:        998 job    16 on # 0 of server super-silk COMPLETED
+SENT JCPL 998 16 super-silk 0
+RCVD REDY
+SENT JOBN 1028 17 43 2 1200 2800
+RCVD GETS Capable 2 1200 2800
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 15300 61700 0 2
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 6 58500 498900 0 5
+RCVD OK
+SENT .
+RCVD SCHD 17 super-silk 0
+t:       1028 job    17 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       1028 job    17 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 1076 18 141484 14 7800 37100
+RCVD GETS Capable 14 7800 37100
+SENT DATA 1 124
+RCVD OK
+SENT super-silk 0 active 117 4 57300 496100 0 6
+RCVD OK
+SENT .
+RCVD SCHD 18 super-silk 0
+t:       1076 job    18 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1133 job     8 on # 0 of server joon COMPLETED
+SENT JCPL 1133 8 joon 0
+RCVD REDY
+t:       1133 job    17 on # 0 of server super-silk COMPLETED
+SENT JCPL 1133 17 super-silk 0
+RCVD REDY
+t:       1164 job    14 on # 0 of server super-silk COMPLETED
+SENT JCPL 1164 14 super-silk 0
+RCVD REDY
+t:       1188 job     3 on # 0 of server super-silk COMPLETED
+SENT JCPL 1188 3 super-silk 0
+RCVD REDY
+t:       1212 job     1 on # 0 of server super-silk COMPLETED
+SENT JCPL 1212 1 super-silk 0
+RCVD REDY
+t:       1357 job     0 on # 0 of server super-silk COMPLETED
+t:       1357 job    18 on # 0 of server super-silk RUNNING
+SENT JCPL 1357 0 super-silk 0
+RCVD REDY
+t:       1712 job    13 on # 0 of server super-silk COMPLETED
+SENT JCPL 1712 13 super-silk 0
+RCVD REDY
+SENT JOBN 1757 19 39 1 700 1700
+RCVD GETS Capable 1 700 1700
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 2 15400 62500 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 19 super-silk 0
+t:       1757 job    19 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       1757 job    19 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:       1779 job     9 on # 0 of server joon COMPLETED
+SENT JCPL 1779 9 joon 0
+RCVD REDY
+t:       1800 job    19 on # 0 of server super-silk COMPLETED
+SENT JCPL 1800 19 super-silk 0
+RCVD REDY
+SENT JOBN 1825 20 257 4 800 1100
+RCVD GETS Capable 4 800 1100
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 20 joon 0
+t:       1825 job    20 (running) on # 0 of server joon (active) SCHEDULED
+t:       1825 job    20 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       2080 job    20 on # 0 of server joon COMPLETED
+SENT JCPL 2080 20 joon 0
+RCVD REDY
+SENT JOBN 2113 21 177 2 300 1700
+RCVD GETS Capable 2 300 1700
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 21 super-silk 0
+t:       2113 job    21 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       2113 job    21 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 2142 22 210 1 300 1000
+RCVD GETS Capable 1 300 1000
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 0 55900 473200 0 2
+RCVD OK
+SENT .
+RCVD SCHD 22 joon 0
+t:       2142 job    22 (running) on # 0 of server joon (active) SCHEDULED
+t:       2142 job    22 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       2259 job    21 on # 0 of server super-silk COMPLETED
+SENT JCPL 2259 21 super-silk 0
+RCVD REDY
+t:       2270 job    22 on # 0 of server joon COMPLETED
+SENT JCPL 2270 22 joon 0
+RCVD REDY
+SENT JOBN 2332 23 2442 2 2100 1100
+RCVD GETS Capable 2 2100 1100
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 23 super-silk 0
+t:       2332 job    23 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       2332 job    23 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 2521 24 972 2 1100 3300
+RCVD GETS Capable 2 1100 3300
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 0 54100 473800 0 2
+RCVD OK
+SENT .
+RCVD SCHD 24 joon 0
+t:       2521 job    24 (running) on # 0 of server joon (active) SCHEDULED
+t:       2521 job    24 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       3582 job    23 on # 0 of server super-silk COMPLETED
+SENT JCPL 3582 23 super-silk 0
+RCVD REDY
+t:       3632 job    24 on # 0 of server joon COMPLETED
+SENT JCPL 3632 24 joon 0
+RCVD REDY
+SENT JOBN 3678 25 30 1 1000 2000
+RCVD GETS Capable 1 1000 2000
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 25 super-silk 0
+t:       3678 job    25 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       3678 job    25 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:       3694 job    25 on # 0 of server super-silk COMPLETED
+SENT JCPL 3694 25 super-silk 0
+RCVD REDY
+SENT JOBN 3900 26 743 4 1100 1200
+RCVD GETS Capable 4 1100 1200
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 26 joon 0
+t:       3900 job    26 (running) on # 0 of server joon (active) SCHEDULED
+t:       3900 job    26 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       4511 job    26 on # 0 of server joon COMPLETED
+SENT JCPL 4511 26 joon 0
+RCVD REDY
+SENT JOBN 4706 27 251 2 700 2000
+RCVD GETS Capable 2 700 2000
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 27 super-silk 0
+t:       4706 job    27 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       4706 job    27 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 4806 28 410 4 1400 3500
+RCVD GETS Capable 4 1400 3500
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 0 55500 472900 0 2
+RCVD OK
+SENT .
+RCVD SCHD 28 joon 0
+t:       4806 job    28 (running) on # 0 of server joon (active) SCHEDULED
+t:       4806 job    28 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       4883 job    27 on # 0 of server super-silk COMPLETED
+SENT JCPL 4883 27 super-silk 0
+RCVD REDY
+t:       5094 job    28 on # 0 of server joon COMPLETED
+SENT JCPL 5094 28 joon 0
+RCVD REDY
+SENT JOBN 5142 29 1055 1 1000 1600
+RCVD GETS Capable 1 1000 1600
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 29 super-silk 0
+t:       5142 job    29 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       5142 job    29 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 5405 30 47 2 200 1000
+RCVD GETS Capable 2 200 1000
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 1 55200 473300 0 2
+RCVD OK
+SENT .
+RCVD SCHD 30 joon 0
+t:       5405 job    30 (running) on # 0 of server joon (active) SCHEDULED
+t:       5405 job    30 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       5572 job    30 on # 0 of server joon COMPLETED
+SENT JCPL 5572 30 joon 0
+RCVD REDY
+SENT JOBN 5708 31 2240 2 1900 1000
+RCVD GETS Capable 2 1900 1000
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 1 55200 473300 0 2
+RCVD OK
+SENT .
+RCVD SCHD 31 joon 0
+t:       5708 job    31 (running) on # 0 of server joon (active) SCHEDULED
+t:       5708 job    31 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       6438 job    29 on # 0 of server super-silk COMPLETED
+SENT JCPL 6438 29 super-silk 0
+RCVD REDY
+SENT JOBN 6611 32 378 2 1800 2600
+RCVD GETS Capable 2 1800 2600
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 2 14100 63000 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 32 super-silk 0
+t:       6611 job    32 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       6611 job    32 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:       6873 job    32 on # 0 of server super-silk COMPLETED
+SENT JCPL 6873 32 super-silk 0
+RCVD REDY
+SENT JOBN 7011 33 267 2 1200 3600
+RCVD GETS Capable 2 1200 3600
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 2 14100 63000 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 33 super-silk 0
+t:       7011 job    33 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       7011 job    33 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:       7153 job    33 on # 0 of server super-silk COMPLETED
+SENT JCPL 7153 33 super-silk 0
+RCVD REDY
+SENT JOBN 7301 34 409 1 500 1500
+RCVD GETS Capable 1 500 1500
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 2 14100 63000 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 34 super-silk 0
+t:       7301 job    34 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       7301 job    34 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:       7358 job    31 on # 0 of server joon COMPLETED
+SENT JCPL 7358 31 joon 0
+RCVD REDY
+t:       7519 job    34 on # 0 of server super-silk COMPLETED
+SENT JCPL 7519 34 super-silk 0
+RCVD REDY
+SENT JOBN 7642 35 166 3 1900 3200
+RCVD GETS Capable 3 1900 3200
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 35 joon 0
+t:       7642 job    35 (running) on # 0 of server joon (active) SCHEDULED
+t:       7642 job    35 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       7754 job    35 on # 0 of server joon COMPLETED
+SENT JCPL 7754 35 joon 0
+RCVD REDY
+SENT JOBN 7898 36 1628 1 600 1100
+RCVD GETS Capable 1 600 1100
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 36 super-silk 0
+t:       7898 job    36 (running) on # 0 of server super-silk (active) SCHEDULED
+t:       7898 job    36 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 7907 37 2197 3 300 900
+RCVD GETS Capable 3 300 900
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 1 55600 473800 0 2
+RCVD OK
+SENT .
+RCVD SCHD 37 joon 0
+t:       7907 job    37 (running) on # 0 of server joon (active) SCHEDULED
+t:       7907 job    37 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:       8949 job    36 on # 0 of server super-silk COMPLETED
+SENT JCPL 8949 36 super-silk 0
+RCVD REDY
+t:       9031 job    37 on # 0 of server joon COMPLETED
+SENT JCPL 9031 37 joon 0
+RCVD REDY
+SENT JOBN 9057 38 27881 3 1500 3900
+RCVD GETS Capable 3 1500 3900
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 2 56200 474900 0 1
+RCVD OK
+SENT .
+RCVD SCHD 38 joon 0
+t:       9057 job    38 (running) on # 0 of server joon (active) SCHEDULED
+t:       9057 job    38 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:      75916 job    18 on # 0 of server super-silk COMPLETED
+SENT JCPL 75916 18 super-silk 0
+RCVD REDY
+SENT JOBN 76548 39 1367 2 800 1900
+RCVD GETS Capable 2 800 1900
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 idle 117 16 64000 512000 0 0
+RCVD OK
+SENT .
+RCVD SCHD 39 super-silk 0
+t:      76548 job    39 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      76548 job    39 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 76755 40 81 3 300 1300
+RCVD GETS Capable 3 300 1300
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 14 63200 510100 0 1
+RCVD OK
+SENT .
+RCVD SCHD 40 super-silk 0
+t:      76755 job    40 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      76755 job    40 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      77257 job    40 on # 0 of server super-silk COMPLETED
+SENT JCPL 77257 40 super-silk 0
+RCVD REDY
+SENT JOBN 77399 41 62 3 1400 5200
+RCVD GETS Capable 3 1400 5200
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 14 63200 510100 0 1
+RCVD OK
+SENT .
+RCVD SCHD 41 super-silk 0
+t:      77399 job    41 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      77399 job    41 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      77528 job    41 on # 0 of server super-silk COMPLETED
+SENT JCPL 77528 41 super-silk 0
+RCVD REDY
+t:      77564 job    39 on # 0 of server super-silk COMPLETED
+SENT JCPL 77564 39 super-silk 0
+RCVD REDY
+SENT JOBN 78202 42 406 12 17200 21600
+RCVD GETS Capable 12 17200 21600
+SENT DATA 1 124
+RCVD OK
+SENT super-silk 0 idle 117 16 64000 512000 0 0
+RCVD OK
+SENT .
+RCVD SCHD 42 super-silk 0
+t:      78202 job    42 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      78202 job    42 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      78500 job    42 on # 0 of server super-silk COMPLETED
+SENT JCPL 78500 42 super-silk 0
+RCVD REDY
+SENT JOBN 78882 43 100 3 600 1500
+RCVD GETS Capable 3 600 1500
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 idle 117 16 64000 512000 0 0
+RCVD OK
+SENT .
+RCVD SCHD 43 super-silk 0
+t:      78882 job    43 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      78882 job    43 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 78957 44 127 2 1100 1500
+RCVD GETS Capable 2 1100 1500
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 13 63400 510500 0 1
+RCVD OK
+SENT .
+RCVD SCHD 44 super-silk 0
+t:      78957 job    44 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      78957 job    44 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      79039 job    44 on # 0 of server super-silk COMPLETED
+SENT JCPL 79039 44 super-silk 0
+RCVD REDY
+t:      79048 job    43 on # 0 of server super-silk COMPLETED
+SENT JCPL 79048 43 super-silk 0
+RCVD REDY
+SENT JOBN 79794 45 377 2 1600 800
+RCVD GETS Capable 2 1600 800
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 idle 117 16 64000 512000 0 0
+RCVD OK
+SENT .
+RCVD SCHD 45 super-silk 0
+t:      79794 job    45 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      79794 job    45 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      80664 job    45 on # 0 of server super-silk COMPLETED
+SENT JCPL 80664 45 super-silk 0
+RCVD REDY
+SENT JOBN 80921 46 461 2 300 1200
+RCVD GETS Capable 2 300 1200
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 idle 117 16 64000 512000 0 0
+RCVD OK
+SENT .
+RCVD SCHD 46 super-silk 0
+t:      80921 job    46 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      80921 job    46 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 81191 47 60658 1 400 400
+RCVD GETS Capable 1 400 400
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 14 63700 510800 0 1
+RCVD OK
+SENT .
+RCVD SCHD 47 super-silk 0
+t:      81191 job    47 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      81191 job    47 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      81217 job    46 on # 0 of server super-silk COMPLETED
+SENT JCPL 81217 46 super-silk 0
+RCVD REDY
+SENT JOBN 81470 48 308 4 3300 1400
+RCVD GETS Capable 4 3300 1400
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 48 super-silk 0
+t:      81470 job    48 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      81470 job    48 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      81721 job    48 on # 0 of server super-silk COMPLETED
+SENT JCPL 81721 48 super-silk 0
+RCVD REDY
+SENT JOBN 82027 49 246 1 200 200
+RCVD GETS Capable 1 200 200
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 49 super-silk 0
+t:      82027 job    49 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      82027 job    49 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      82306 job    49 on # 0 of server super-silk COMPLETED
+SENT JCPL 82306 49 super-silk 0
+RCVD REDY
+SENT JOBN 83157 50 86 2 1400 3000
+RCVD GETS Capable 2 1400 3000
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 50 super-silk 0
+t:      83157 job    50 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      83157 job    50 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      83450 job    50 on # 0 of server super-silk COMPLETED
+SENT JCPL 83450 50 super-silk 0
+RCVD REDY
+SENT JOBN 83513 51 1146 2 400 1100
+RCVD GETS Capable 2 400 1100
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 51 super-silk 0
+t:      83513 job    51 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      83513 job    51 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 83617 52 390 2 1200 3400
+RCVD GETS Capable 2 1200 3400
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 13 63200 510500 0 2
+RCVD OK
+SENT .
+RCVD SCHD 52 super-silk 0
+t:      83617 job    52 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      83617 job    52 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      84141 job    52 on # 0 of server super-silk COMPLETED
+SENT JCPL 84141 52 super-silk 0
+RCVD REDY
+SENT JOBN 84817 53 48 2 1500 400
+RCVD GETS Capable 2 1500 400
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 13 63200 510500 0 2
+RCVD OK
+SENT .
+RCVD SCHD 53 super-silk 0
+t:      84817 job    53 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      84817 job    53 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 84851 54 252 1 1000 1900
+RCVD GETS Capable 1 1000 1900
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 11 61700 510100 0 3
+RCVD OK
+SENT .
+RCVD SCHD 54 super-silk 0
+t:      84851 job    54 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      84851 job    54 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      84855 job    53 on # 0 of server super-silk COMPLETED
+SENT JCPL 84855 53 super-silk 0
+RCVD REDY
+t:      85011 job    54 on # 0 of server super-silk COMPLETED
+SENT JCPL 85011 54 super-silk 0
+RCVD REDY
+SENT JOBN 85175 55 269 4 3100 6300
+RCVD GETS Capable 4 3100 6300
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 13 63200 510500 0 2
+RCVD OK
+SENT .
+RCVD SCHD 55 super-silk 0
+t:      85175 job    55 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      85175 job    55 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      85264 job    51 on # 0 of server super-silk COMPLETED
+SENT JCPL 85264 51 super-silk 0
+RCVD REDY
+t:      85348 job    55 on # 0 of server super-silk COMPLETED
+SENT JCPL 85348 55 super-silk 0
+RCVD REDY
+SENT JOBN 85494 56 81 1 400 400
+RCVD GETS Capable 1 400 400
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 56 super-silk 0
+t:      85494 job    56 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      85494 job    56 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      85564 job    56 on # 0 of server super-silk COMPLETED
+SENT JCPL 85564 56 super-silk 0
+RCVD REDY
+SENT JOBN 85914 57 330 4 3400 7100
+RCVD GETS Capable 4 3400 7100
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 57 super-silk 0
+t:      85914 job    57 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      85914 job    57 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      86180 job    57 on # 0 of server super-silk COMPLETED
+SENT JCPL 86180 57 super-silk 0
+RCVD REDY
+SENT JOBN 87069 58 375 4 1800 6600
+RCVD GETS Capable 4 1800 6600
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 58 super-silk 0
+t:      87069 job    58 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      87069 job    58 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 87069 59 131 12 4600 44000
+RCVD GETS Capable 12 4600 44000
+SENT DATA 1 124
+RCVD OK
+SENT super-silk 0 active 117 11 61800 505000 0 2
+RCVD OK
+SENT .
+RCVD SCHD 59 super-silk 0
+t:      87069 job    59 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87412 60 419 2 19300 22900
+RCVD GETS Capable 2 19300 22900
+SENT DATA 1 124
+RCVD OK
+SENT super-silk 0 active 117 11 61800 505000 1 2
+RCVD OK
+SENT .
+RCVD SCHD 60 super-silk 0
+t:      87412 job    60 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87482 61 2170 2 1700 300
+RCVD GETS Capable 2 1700 300
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 11 61800 505000 2 2
+RCVD OK
+SENT .
+RCVD SCHD 61 super-silk 0
+t:      87482 job    61 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87506 62 170 4 1000 3600
+RCVD GETS Capable 4 1000 3600
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 11 61800 505000 3 2
+RCVD OK
+SENT .
+RCVD SCHD 62 super-silk 0
+t:      87506 job    62 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      87523 job    58 on # 0 of server super-silk COMPLETED
+t:      87523 job    59 on # 0 of server super-silk RUNNING
+t:      87523 job    60 on # 0 of server super-silk RUNNING
+SENT JCPL 87523 58 super-silk 0
+RCVD REDY
+SENT JOBN 87558 63 1497 1 600 1300
+RCVD GETS Capable 1 600 1300
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 1 39700 444700 2 3
+RCVD OK
+SENT .
+RCVD SCHD 63 super-silk 0
+t:      87558 job    63 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87564 64 263 4 3800 5000
+RCVD GETS Capable 4 3800 5000
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 inactive -1 4 16000 64000 0 0
+super-silk 0 active 117 1 39700 444700 3 3
+RCVD OK
+SENT .
+RCVD SCHD 64 joon 1
+t:      87564 job    64 (waiting) on # 1 of server joon (booting) SCHEDULED
+SENT OK
+RCVD REDY
+t:      87624 job    64 on # 1 of server joon RUNNING
+SENT JOBN 87714 65 161 1 400 200
+RCVD GETS Capable 1 400 200
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 active 87624 0 12200 59000 0 1
+super-silk 0 active 117 1 39700 444700 3 3
+RCVD OK
+SENT .
+RCVD SCHD 65 super-silk 0
+t:      87714 job    65 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87715 66 639 4 3300 6100
+RCVD GETS Capable 4 3300 6100
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 active 87624 0 12200 59000 0 1
+super-silk 0 active 117 1 39700 444700 4 3
+RCVD OK
+SENT .
+RCVD SCHD 66 super-silk 0
+t:      87715 job    66 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      87770 job    64 on # 1 of server joon COMPLETED
+SENT JCPL 87770 64 joon 1
+RCVD REDY
+t:      87786 job    60 on # 0 of server super-silk COMPLETED
+t:      87786 job    61 on # 0 of server super-silk RUNNING
+SENT JCPL 87786 60 super-silk 0
+RCVD REDY
+SENT JOBN 87805 67 154 6 2200 6100
+RCVD GETS Capable 6 2200 6100
+SENT DATA 1 124
+RCVD OK
+SENT super-silk 0 active 117 1 57300 467300 4 3
+RCVD OK
+SENT .
+RCVD SCHD 67 super-silk 0
+t:      87805 job    67 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      87815 job    59 on # 0 of server super-silk COMPLETED
+t:      87815 job    62 on # 0 of server super-silk RUNNING
+t:      87815 job    63 on # 0 of server super-silk RUNNING
+t:      87815 job    65 on # 0 of server super-silk RUNNING
+t:      87815 job    66 on # 0 of server super-silk RUNNING
+SENT JCPL 87815 59 super-silk 0
+RCVD REDY
+SENT JOBN 87971 68 43 1 600 3200
+RCVD GETS Capable 1 600 3200
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 56600 500100 1 6
+RCVD OK
+SENT .
+RCVD SCHD 68 super-silk 0
+t:      87971 job    68 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      88003 job    65 on # 0 of server super-silk COMPLETED
+SENT JCPL 88003 65 super-silk 0
+RCVD REDY
+t:      88008 job    62 on # 0 of server super-silk COMPLETED
+t:      88008 job    67 on # 0 of server super-silk RUNNING
+t:      88008 job    68 on # 0 of server super-silk RUNNING
+SENT JCPL 88008 62 super-silk 0
+RCVD REDY
+SENT JOBN 88042 69 4463 4 2300 3900
+RCVD GETS Capable 4 2300 3900
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 1 55200 494600 0 6
+RCVD OK
+SENT .
+RCVD SCHD 69 joon 1
+t:      88042 job    69 (running) on # 1 of server joon (active) SCHEDULED
+t:      88042 job    69 on # 1 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:      88170 job    67 on # 0 of server super-silk COMPLETED
+SENT JCPL 88170 67 super-silk 0
+RCVD REDY
+SENT JOBN 88250 70 42 1 1000 200
+RCVD GETS Capable 1 1000 200
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 active 87624 0 13700 60100 0 1
+super-silk 0 active 117 7 57400 500700 0 5
+RCVD OK
+SENT .
+RCVD SCHD 70 super-silk 0
+t:      88250 job    70 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      88250 job    70 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      88267 job    68 on # 0 of server super-silk COMPLETED
+SENT JCPL 88267 68 super-silk 0
+RCVD REDY
+t:      88362 job    70 on # 0 of server super-silk COMPLETED
+SENT JCPL 88362 70 super-silk 0
+RCVD REDY
+SENT JOBN 88407 71 6 2 400 1100
+RCVD GETS Capable 2 400 1100
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 active 87624 0 13700 60100 0 1
+super-silk 0 active 117 8 58000 503900 0 4
+RCVD OK
+SENT .
+RCVD SCHD 71 super-silk 0
+t:      88407 job    71 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      88407 job    71 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      88487 job    71 on # 0 of server super-silk COMPLETED
+SENT JCPL 88487 71 super-silk 0
+RCVD REDY
+SENT JOBN 88492 72 4 2 900 900
+RCVD GETS Capable 2 900 900
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 active 87624 0 13700 60100 0 1
+super-silk 0 active 117 8 58000 503900 0 4
+RCVD OK
+SENT .
+RCVD SCHD 72 super-silk 0
+t:      88492 job    72 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      88492 job    72 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      88496 job    72 on # 0 of server super-silk COMPLETED
+SENT JCPL 88496 72 super-silk 0
+RCVD REDY
+t:      88537 job    66 on # 0 of server super-silk COMPLETED
+SENT JCPL 88537 66 super-silk 0
+RCVD REDY
+SENT JOBN 88554 73 149 10 7700 24300
+RCVD GETS Capable 10 7700 24300
+SENT DATA 1 124
+RCVD OK
+SENT super-silk 0 active 117 12 61300 510000 0 3
+RCVD OK
+SENT .
+RCVD SCHD 73 super-silk 0
+t:      88554 job    73 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      88554 job    73 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      88786 job    73 on # 0 of server super-silk COMPLETED
+SENT JCPL 88786 73 super-silk 0
+RCVD REDY
+SENT JOBN 88816 74 569 2 500 2900
+RCVD GETS Capable 2 500 2900
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 active 87624 0 13700 60100 0 1
+super-silk 0 active 117 12 61300 510000 0 3
+RCVD OK
+SENT .
+RCVD SCHD 74 super-silk 0
+t:      88816 job    74 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      88816 job    74 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 88878 75 209 1 600 100
+RCVD GETS Capable 1 600 100
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 1 14500 60100 0 1
+joon 1 active 87624 0 13700 60100 0 1
+super-silk 0 active 117 10 60800 507100 0 4
+RCVD OK
+SENT .
+RCVD SCHD 75 super-silk 0
+t:      88878 job    75 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      88878 job    75 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:      88904 job    61 on # 0 of server super-silk COMPLETED
+SENT JCPL 88904 61 super-silk 0
+RCVD REDY
+t:      89021 job    75 on # 0 of server super-silk COMPLETED
+SENT JCPL 89021 75 super-silk 0
+RCVD REDY
+SENT JOBN 89047 76 116 3 300 5300
+RCVD GETS Capable 3 300 5300
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 1 14500 60100 0 1
+joon 1 active 87624 0 13700 60100 0 1
+super-silk 0 active 117 12 62500 507400 0 3
+RCVD OK
+SENT .
+RCVD SCHD 76 super-silk 0
+t:      89047 job    76 (running) on # 0 of server super-silk (active) SCHEDULED
+t:      89047 job    76 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 89189 77 109134 12 22000 20000
+RCVD GETS Capable 12 22000 20000
+SENT DATA 1 124
+RCVD OK
+SENT super-silk 0 active 117 9 62200 502100 0 4
+RCVD OK
+SENT .
+RCVD SCHD 77 super-silk 0
+t:      89189 job    77 (waiting) on # 0 of server super-silk (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      89299 job    76 on # 0 of server super-silk COMPLETED
+t:      89299 job    77 on # 0 of server super-silk RUNNING
+SENT JCPL 89299 76 super-silk 0
+RCVD REDY
+t:      89585 job    63 on # 0 of server super-silk COMPLETED
+SENT JCPL 89585 63 super-silk 0
+RCVD REDY
+t:      89978 job    74 on # 0 of server super-silk COMPLETED
+SENT JCPL 89978 74 super-silk 0
+RCVD REDY
+t:      99167 job    38 on # 0 of server joon COMPLETED
+SENT JCPL 99167 38 joon 0
+RCVD REDY
+t:     101759 job    69 on # 1 of server joon COMPLETED
+SENT JCPL 101759 69 joon 1
+RCVD REDY
+SENT JOBN 101799 78 625 1 2700 1200
+RCVD GETS Capable 1 2700 1200
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 78 super-silk 0
+t:     101799 job    78 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     101799 job    78 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     102318 job    78 on # 0 of server super-silk COMPLETED
+SENT JCPL 102318 78 super-silk 0
+RCVD REDY
+SENT JOBN 102551 79 1930 2 1900 3900
+RCVD GETS Capable 2 1900 3900
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 79 super-silk 0
+t:     102551 job    79 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     102551 job    79 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     103577 job    79 on # 0 of server super-silk COMPLETED
+SENT JCPL 103577 79 super-silk 0
+RCVD REDY
+SENT JOBN 103667 80 165 2 500 2300
+RCVD GETS Capable 2 500 2300
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 80 super-silk 0
+t:     103667 job    80 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     103667 job    80 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     103802 job    80 on # 0 of server super-silk COMPLETED
+SENT JCPL 103802 80 super-silk 0
+RCVD REDY
+SENT JOBN 104152 81 405 4 4300 3600
+RCVD GETS Capable 4 4300 3600
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 81 joon 0
+t:     104152 job    81 (running) on # 0 of server joon (active) SCHEDULED
+t:     104152 job    81 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:     104382 job    81 on # 0 of server joon COMPLETED
+SENT JCPL 104382 81 joon 0
+RCVD REDY
+SENT JOBN 104382 82 484 3 1300 2600
+RCVD GETS Capable 3 1300 2600
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 82 super-silk 0
+t:     104382 job    82 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     104382 job    82 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     104906 job    82 on # 0 of server super-silk COMPLETED
+SENT JCPL 104906 82 super-silk 0
+RCVD REDY
+SENT JOBN 105173 83 290 1 800 100
+RCVD GETS Capable 1 800 100
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 83 super-silk 0
+t:     105173 job    83 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     105173 job    83 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     105476 job    83 on # 0 of server super-silk COMPLETED
+SENT JCPL 105476 83 super-silk 0
+RCVD REDY
+SENT JOBN 105666 84 3049 1 600 1600
+RCVD GETS Capable 1 600 1600
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 84 super-silk 0
+t:     105666 job    84 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     105666 job    84 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     110906 job    84 on # 0 of server super-silk COMPLETED
+SENT JCPL 110906 84 super-silk 0
+RCVD REDY
+SENT JOBN 111313 85 1642 4 4500 700
+RCVD GETS Capable 4 4500 700
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 85 joon 0
+t:     111313 job    85 (running) on # 0 of server joon (active) SCHEDULED
+t:     111313 job    85 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:     113035 job    85 on # 0 of server joon COMPLETED
+SENT JCPL 113035 85 joon 0
+RCVD REDY
+SENT JOBN 113189 86 141 4 2400 1400
+RCVD GETS Capable 4 2400 1400
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 86 joon 0
+t:     113189 job    86 (running) on # 0 of server joon (active) SCHEDULED
+t:     113189 job    86 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:     113264 job    86 on # 0 of server joon COMPLETED
+SENT JCPL 113264 86 joon 0
+RCVD REDY
+SENT JOBN 113265 87 37817 4 3700 7100
+RCVD GETS Capable 4 3700 7100
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 3 41600 491600 0 2
+RCVD OK
+SENT .
+RCVD SCHD 87 joon 0
+t:     113265 job    87 (running) on # 0 of server joon (active) SCHEDULED
+t:     113265 job    87 on # 0 of server joon RUNNING
+SENT OK
+RCVD REDY
+t:     152321 job    77 on # 0 of server super-silk COMPLETED
+SENT JCPL 152321 77 super-silk 0
+RCVD REDY
+SENT JOBN 152773 88 565 1 400 1600
+RCVD GETS Capable 1 400 1600
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 0 12300 56900 0 1
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 88 super-silk 0
+t:     152773 job    88 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     152773 job    88 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 152928 89 951 3 300 5300
+RCVD GETS Capable 3 300 5300
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 0 12300 56900 0 1
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 14 63200 510000 0 2
+RCVD OK
+SENT .
+RCVD SCHD 89 super-silk 0
+t:     152928 job    89 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     152928 job    89 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 152983 90 103 2 1400 1600
+RCVD GETS Capable 2 1400 1600
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 active 309 0 12300 56900 0 1
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 11 62900 504700 0 3
+RCVD OK
+SENT .
+RCVD SCHD 90 super-silk 0
+t:     152983 job    90 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     152983 job    90 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     153067 job    88 on # 0 of server super-silk COMPLETED
+SENT JCPL 153067 88 super-silk 0
+RCVD REDY
+t:     153132 job    90 on # 0 of server super-silk COMPLETED
+SENT JCPL 153132 90 super-silk 0
+RCVD REDY
+SENT JOBN 153883 91 19 3 2400 1200
+RCVD GETS Capable 3 2400 1200
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 active 309 0 12300 56900 0 1
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 12 63300 506300 0 2
+RCVD OK
+SENT .
+RCVD SCHD 91 super-silk 0
+t:     153883 job    91 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     153883 job    91 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     153951 job    91 on # 0 of server super-silk COMPLETED
+SENT JCPL 153951 91 super-silk 0
+RCVD REDY
+t:     154049 job    89 on # 0 of server super-silk COMPLETED
+SENT JCPL 154049 89 super-silk 0
+RCVD REDY
+t:     154786 job    87 on # 0 of server joon COMPLETED
+SENT JCPL 154786 87 joon 0
+RCVD REDY
+SENT JOBN 154806 92 11 4 1200 1300
+RCVD GETS Capable 4 1200 1300
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 92 super-silk 0
+t:     154806 job    92 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     154806 job    92 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     154843 job    92 on # 0 of server super-silk COMPLETED
+SENT JCPL 154843 92 super-silk 0
+RCVD REDY
+SENT JOBN 155141 93 481 9 8900 6600
+RCVD GETS Capable 9 8900 6600
+SENT DATA 1 124
+RCVD OK
+SENT super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 93 super-silk 0
+t:     155141 job    93 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     155141 job    93 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     155382 job    93 on # 0 of server super-silk COMPLETED
+SENT JCPL 155382 93 super-silk 0
+RCVD REDY
+SENT JOBN 155551 94 248 3 3000 6000
+RCVD GETS Capable 3 3000 6000
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 94 super-silk 0
+t:     155551 job    94 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     155551 job    94 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     155726 job    94 on # 0 of server super-silk COMPLETED
+SENT JCPL 155726 94 super-silk 0
+RCVD REDY
+SENT JOBN 155833 95 262 4 3600 8100
+RCVD GETS Capable 4 3600 8100
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 95 super-silk 0
+t:     155833 job    95 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     155833 job    95 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     155965 job    95 on # 0 of server super-silk COMPLETED
+SENT JCPL 155965 95 super-silk 0
+RCVD REDY
+SENT JOBN 156811 96 1841 2 400 1500
+RCVD GETS Capable 2 400 1500
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 15 63600 511600 0 1
+RCVD OK
+SENT .
+RCVD SCHD 96 super-silk 0
+t:     156811 job    96 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     156811 job    96 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 157077 97 35 2 1400 2500
+RCVD GETS Capable 2 1400 2500
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 13 63200 510100 0 2
+RCVD OK
+SENT .
+RCVD SCHD 97 super-silk 0
+t:     157077 job    97 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     157077 job    97 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     157098 job    97 on # 0 of server super-silk COMPLETED
+SENT JCPL 157098 97 super-silk 0
+RCVD REDY
+SENT JOBN 157233 98 21502 3 1600 5800
+RCVD GETS Capable 3 1600 5800
+SENT DATA 3 124
+RCVD OK
+SENT joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 13 63200 510100 0 2
+RCVD OK
+SENT .
+RCVD SCHD 98 super-silk 0
+t:     157233 job    98 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     157233 job    98 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 157425 99 1075 2 400 3900
+RCVD GETS Capable 2 400 3900
+SENT DATA 5 124
+RCVD OK
+SENT juju 0 inactive -1 2 4000 16000 0 0
+juju 1 inactive -1 2 4000 16000 0 0
+joon 0 idle 309 4 16000 64000 0 0
+joon 1 idle 87624 4 16000 64000 0 0
+super-silk 0 active 117 10 61600 504300 0 3
+RCVD OK
+SENT .
+RCVD SCHD 99 super-silk 0
+t:     157425 job    99 (running) on # 0 of server super-silk (active) SCHEDULED
+t:     157425 job    99 on # 0 of server super-silk RUNNING
+SENT OK
+RCVD REDY
+t:     157866 job    96 on # 0 of server super-silk COMPLETED
+SENT JCPL 157866 96 super-silk 0
+RCVD REDY
+t:     158585 job    99 on # 0 of server super-silk COMPLETED
+SENT JCPL 158585 99 super-silk 0
+RCVD REDY
+t:     181009 job    47 on # 0 of server super-silk COMPLETED
+SENT JCPL 181009 47 super-silk 0
+RCVD REDY
+t:     189881 job    98 on # 0 of server super-silk COMPLETED
+SENT JCPL 189881 98 super-silk 0
+RCVD REDY
+SENT NONE
+RCVD QUIT
+SENT QUIT
+# -------------------------------------------------------------------------------------
+# 0 juju servers used with a utilisation of 0.00 at the cost of $0.00
+# 2 joon servers used with a utilisation of 94.54 at the cost of $18.73
+# 1 super-silk servers used with a utilisation of 98.60 at the cost of $42.17
+# ==================================== [ Summary ] ====================================
+# actual simulation end time: 189881, #jobs: 100 (failed 0 times)
+# total #servers used: 3, avg util: 95.89% (ef. usage: 95.30%), total cost: $60.90
+# avg waiting time: 25, avg exec time: 4632, avg turnaround time: 4657

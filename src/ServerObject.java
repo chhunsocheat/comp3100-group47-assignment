@@ -14,6 +14,8 @@ public class ServerObject {
     int disk;
     String serverState;
     int curStartTime;
+    int waitingJ;
+    int runningJ;
 
     public ServerObject(String type, int limit, int bootupTime, double hourlyRate, int coreCount, int memory, int disk) {
         this.type = type;
@@ -26,7 +28,9 @@ public class ServerObject {
     }
 
     //this object is for storing the lastest state of the server
-    public ServerObject(String type, String id, String serverState, String curStartTime, String coreCount, String memory, String disk) {
+    public ServerObject(String type, String id, String serverState, 
+    String curStartTime, String coreCount, String memory, String disk,
+    String waitingJ,String runningJ) {
         this.type = type;
         this.id = Integer.parseInt(id);
         this.serverState = serverState;
@@ -34,11 +38,14 @@ public class ServerObject {
         this.coreCount = Integer.parseInt(coreCount);
         this.memory = Integer.parseInt(memory);
         this.disk = Integer.parseInt(disk);
+        this.waitingJ=Integer.parseInt(waitingJ);
+        this.runningJ=Integer.parseInt(runningJ);
     }
 
     public ServerObject(String[] singleServerStatus){
         this(singleServerStatus[0],singleServerStatus[1],singleServerStatus[2],singleServerStatus[3],
-                singleServerStatus[4],singleServerStatus[5],singleServerStatus[6]);
+                singleServerStatus[4],singleServerStatus[5],singleServerStatus[6],singleServerStatus[7],
+                singleServerStatus[8]);
     }
 
     public String toString(){

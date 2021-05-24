@@ -100,8 +100,8 @@ public class Client {
 	}
 
 	public void initialiseServer() {
-		servers = readXML();
-		algorithm.setServers(servers);
+		// servers = readXML();
+		// algorithm.setServers(servers);
 	}
 
 
@@ -136,6 +136,7 @@ public class Client {
 			System.out.println("Successful supplied algorithm");
 			switch (argument[1]) {
 				case "mint":algorithm = new MinTurnAround();break;
+				case "minc":algorithm = new MinCost();break;
 				default:System.out.println("Uncaught error");break;
 			}
 		}
@@ -180,8 +181,9 @@ public class Client {
 						ArrayList<String> serverStatuses = readMultiLineFromServer(numLines); // multiple server states
 						sendToServer("OK");
 						readFromServer(); // .
-						System.out.println(serverStatuses + "Server Status\n");
+						System.out.println(serverStatuses + "Server Status\n\n");
 						assert serverStatuses != null;
+						algorithm.setJobCore(j.core);
 						algorithm.populateServers(serverStatuses);
 						ServerObject serverToScheduleJob = algorithm.getSCHDServer();
 						//SCHD the job

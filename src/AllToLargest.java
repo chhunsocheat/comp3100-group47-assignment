@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class AllToLargest implements SchedulingAlgo{
     public ArrayList<ServerObject> servers;
+    public int jobcoreRequirement; 
 
     //method to get the largest server
     public ServerObject getLargestServer() {
@@ -34,6 +35,9 @@ public class AllToLargest implements SchedulingAlgo{
 //        }
 //        return largestType + " " + id; // something like "super-silk 0"
         return null;
+    }
+    public void setJobCore(int coreCount){
+        this.jobcoreRequirement=coreCount; 
     }
 
     public void setServers(ArrayList<ServerObject> s){
