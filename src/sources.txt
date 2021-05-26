@@ -1,7 +1,4 @@
-./AllToLargest.java
 ./Client.java
 ./Job.java
-./MinCost.java
-./MinTurnAround.java
-./SchedulingAlgo.java
+./MinimizeCost.java
 ./ServerObject.java
