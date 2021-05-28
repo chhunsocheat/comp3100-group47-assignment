@@ -23,14 +23,9 @@ public class MinimizeCost {
                 smallestServer = s;
             }
         }
-        System.out.println("Scheduling to:" + smallestServer);
         return smallestServer;
     }
 
-    public ServerObject getSCHDServer() {
-        return getSmallestServer(); // this will provide to the Client class the server object that is the smalled capable 
-        // for doing the job
-    }
 
     public String MinimizeCostAlgo(ArrayList<String> serverStatuses){
         readPopulateServer(serverStatuses);

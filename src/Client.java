@@ -139,10 +139,14 @@ public class Client {
 						readFromServer(); // .
 						assert serverStatuses != null;
 						// feeding the algorithm with all the server information from the server
-						// minCost.readPopulateServer(serverStatuses);
+						
+						//Important Line
+						//------------------------------------------------------
 						String serverToScheduleJob = minCost.MinimizeCostAlgo(serverStatuses);
 						// SCHD the job
 						sendToServer("SCHD " + j.jobId + " " + serverToScheduleJob);
+						//------------------------------------------------------
+
 						// we are scheduling the job to the appropriate server that is sent from the
 						// MinimizeCost class
 						break;
