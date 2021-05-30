@@ -2,7 +2,8 @@ import java.util.ArrayList;
 
 public class MinimizeCost {
     public ArrayList<ServerObject> servers;
-
+    //this method is to populate the serverObj into the this.servers property 
+    //of the MinimizeCost class
     public void readPopulateServer(ArrayList<String> serverStatuses) {
         servers = new ArrayList<ServerObject>();
 
@@ -19,6 +20,8 @@ public class MinimizeCost {
         ServerObject smallestServer = servers.get(servers.size() - 1);
         for (ServerObject s : servers) {
             // > mean smallest
+            //compareTo is the method from the serverObj that compares two server to see
+            //which one is bigger 
             if (smallestServer.compareTo(s) > 0) {
                 smallestServer = s;
             }
@@ -26,7 +29,7 @@ public class MinimizeCost {
         return smallestServer;
     }
 
-
+    //this method puts everything together and output the server it decide to schedule to
     public String MinimizeCostAlgo(ArrayList<String> serverStatuses){
         readPopulateServer(serverStatuses);
         ServerObject  serverObject= getSmallestServer();
