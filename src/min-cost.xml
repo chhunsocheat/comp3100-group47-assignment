@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config randomSeed="123456">
+
+	<servers>
+		<server type="tiny" limit="5" bootupTime="60" hourlyRate="0.1" coreCount="1" memory="1000" disk="4000" />
+		<server type="small" limit="5" bootupTime="60" hourlyRate="0.2" coreCount="2" memory="4000" disk="16000" />
+		<server type="medium" limit="5" bootupTime="60" hourlyRate="0.4" coreCount="4" memory="16000" disk="64000" />
+	</servers>
+
+	<jobs>
+		<job type="instant" minRunTime="1" maxRunTime="30" populationRate="25" />
+		<job type="short" minRunTime="31" maxRunTime="300" populationRate="25" />
+		<job type="medium" minRunTime="301" maxRunTime="1200" populationRate="50" />
+	</jobs>
+
+	<workload type="low" minLoad="10" maxLoad="40" />
+	<termination>
+		<condition type="endtime" value="86400" />
+		<condition type="jobcount" value="100" />
+	</termination>
+</config>
